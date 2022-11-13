@@ -1,2 +1,1 @@
-"C:\Users\filip\Desktop\Pliki" "E:\Backup" /Y /E /D /C /F /H /I /Z /J
-start notify.vbs
+
