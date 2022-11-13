@@ -47,6 +47,7 @@ def Screen():
 
         y = open("main.bat","w")
         y.write("xcopy" + " " + "\"" + get1 + "\"" + " " + "\"" + get2 + "\"" + " " + "/Y /E /D /C /F /H /I /Z /J")
+        print(" \n start notify.vbs",file=y)
         y.close()
         # Przez to powyzej do skryptu bat zostala napisana komenda ktora kopjuje pliki
         # Teraz zrobie zeby python uruchomil ten skrypt w batchu
@@ -58,8 +59,7 @@ def Screen():
         print("LOGS-",datetime.now() ,"- Zakonczono backup",file=x)
         print("----------",file=x)
         x.close()
-        messagebox.showinfo("INFO","Zamknij Okienko programu dopiero po zakonczeniu kopiowania \n Aby sprawdzic kiedy kopiowanie sie skonczylo patrz w konsole aplikacji \n Kopiowanie zakonczylo sie w momencie w ktorym w konsoli pojawil sie dopisek 'X File(s) copied")
-
+        
 
 
 
