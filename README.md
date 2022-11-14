@@ -3,15 +3,15 @@ Uzywane do tworzenia kopi zapasowej calych folderow
 
 Jezeli cos nie dziala zainstaluj te biblioteki
 
-tkinter
+-tkinter
 
-tkinter messagebox
+-tkinter messagebox
 
-PIL
+-PIL
 
-datetime
+-datetime
 
-shutil
+-shutil
 
-subprocess
+-subprocess
 
