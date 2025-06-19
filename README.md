@@ -40,4 +40,41 @@
 ---
 
 ## 📂 Struktura projektu
+├── main.py # Główny plik Pythona
+├── Images/ # Folder z ikoną i tłem
+│ ├── icon.ico
+│ └── bg.png
+├── Data/ # Folder na zapisane ścieżki
+│ └── data0.txt
+├── logs.txt # Logi z wykonanych operacji
+├── main.bat # Generowany skrypt kopiujący
+---
 
+## 📝 Wymagania
+
+- Python 3.x
+- Biblioteki:
+  - `tkinter` (wbudowane w Pythona)
+  - `PIL` (do obrazów)  
+    Zainstaluj przez:
+    ```bash
+    pip install pillow
+    ```
+
+---
+
+## 📄 Licencja
+
+Ten projekt jest udostępniony na licencji MIT.  
+Możesz dowolnie go modyfikować i wykorzystywać.
+
+---
+
+## 🤝 Wkład
+
+Masz pomysł na ulepszenie? Zgłoś **issue** lub utwórz **pull request**.  
+Twoje wsparcie i sugestie są mile widziane!
+
+---
+
+**Autor:** HarakyV  
